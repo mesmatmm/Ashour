@@ -1,0 +1,84 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    text-align: right;
+}
+
+/* Fixed Compact Header */
+.fixed-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #4682B4; /* Sky blue */
+    color: white;
+    z-index: 1000;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.sections-nav {
+    margin-top: 5px;
+}
+
+.sections-nav .nav-link {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.sections-nav .nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Content */
+.content {
+    padding-top: 140px; /* Ensure content starts after fixed header */
+    margin: 20px;
+}
+
+.section {
+    background-color: #e0f7fa; /* Light blue for sections */
+    border-radius: 12px;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.section:nth-child(odd) {
+    background-color: #f0f8ff; /* Alternating color */
+}
+
+.section h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.section ul {
+    list-style-type: disc;
+    padding-right: 20px;
+}
+
+.section ul li {
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #4682B4;
+    color: white;
+}
