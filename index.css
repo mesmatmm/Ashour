@@ -156,6 +156,7 @@ body {
     display: flex;
     transition: transform 0.5s ease-in-out;
     width: 150%; /* Assuming 5 images */
+    
 }
 
 /* Images inside the slider */
