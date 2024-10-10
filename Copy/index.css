@@ -44,7 +44,7 @@ color: red;
 .button {
     padding: 12px 25px;
     font-size: 35px;
-    background-color: #3498db;
+    background-color: #04253ce2;
     color: white;
     border: none;
     border-radius: 8px;
@@ -54,8 +54,23 @@ color: red;
     transition: background-color 0.3s ease;
 }
 
+.buttoneven {
+    padding: 12px 25px;
+    font-size: 35px;
+    background-color: #9e0e03;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
 .button:hover {
-    background-color: #2980b9;
+    background-color: #1b5c87;
+}
+.buttoneven:hover {
+    background-color: #7c120a;
 }
 
 /* Footer Styling */
@@ -81,4 +96,8 @@ footer {
 
 body {
     animation: fadeIn 1.5s ease-in-out;
+}
+
+.main-image {
+    width: 40%;
 }

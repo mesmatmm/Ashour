@@ -4,31 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>الرئيسية</title>
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div class="container">
-        <h1 class="title">مئوية<br>
-            عطية عبد السلام عاشور
-         - أستاذ الرياضيات التطبيقية 
-            
-        </h1>
-
-        <img src="images/Ashour1.gif" alt="ashour" class="main-image">
-        <h3 class="description">
-             ـ 13 سبتمبر 1924   -     17 أبريل 2017 
-        </h4>
-        <div class="buttons">
-            
-            <a href="article2.html" class="button">
-                إدارته لقسم الرياضيات
-            </a>
-            <a href="article3.html" class="button">
-              العلاقات الدولية
-            </a>
-            <a href="publications.html" class="button"> ابحاثه</a>
-            <a href="CV.html" class="button">السيرة الذاتية</a>
+    <!-- Fixed Compact Header -->
+    <div class="fixed-header">
+        <div class="header-content">
+            <h1 class="title">
+                مئوية الأستاذ الدكتور/ عطية عبد السلام عاشور 
+             - أستاذ الرياضيات التطبيقية 
+                
+            </h1>
         </div>
     </div>
+    <div class="container">
+        <br><br><br><br><br>
+        <img src="images/Ashour1.gif" alt="ashour" class="main-image">
+        
+        <h2 class="description">
+             ـ 13 سبتمبر 1924   -     17 أبريل 2017 
+        </h2>
+        <div class="buttons">
+            
+            <a href="management.html" target="_blank" class="button">
+                إدارته لقسم الرياضيات
+            </a>
+            <a href="ScientificWork.html" target="_blank" class="buttoneven">
+                أعماله العلمية
+            </a>
+            <a href="InternationalCooperation.html" target="_blank" class="button">
+              العلاقات الدولية
+            </a>
+            
+            <a href="CV.html" target="_blank" class="buttoneven">السيرة الذاتية</a>
+            <a href="life.html" target="_blank" class="button">
+                حياته
+            </a>
+        </div>
+        <div class="image-slider-container">
+            <div class="image-slider">
+                <img src="images/Ashour1.gif" alt="Image 1">
+                <img src="images/AshourOnBlackboard.gif" alt="Image 2">
+                <img src="images/wi.PNG" alt="Image 3">
+                <img src="images/AshourMusharafa.gif" alt="Image 4">
+                <img src="images/Ashour1000LE.gif" alt="Image 5">
+                <img src="images/AshourNigeria1984.gif" alt="Image 6">
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+    </div>
+    <script src="carousel.js"></script>
 </body>
 </html>

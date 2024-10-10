@@ -1,0 +1,115 @@
+/* Reset and general styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    direction: rtl; /* Right-to-left text direction */
+    background-color: #f0f0f0; /* Light background */
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-family: 'Amiri', serif; /* Title font */
+}
+
+header h2 {
+    font-size: 1.8em;
+    font-family: 'Cairo', sans-serif; /* Subtitle font */
+    margin-top: 10px;
+}
+
+/* Main content layout */
+.main-content {
+    display: flex;
+    padding: 20px;
+}
+
+aside {
+    flex: 0 0 250px;
+    position: sticky;
+    top: 20px;
+    height: 300px;
+}
+
+aside img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Content styling */
+.content {
+    flex: 1;
+    padding-left: 30px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.content ul {
+    list-style-type: disc;
+    padding-right: 20px;
+}
+
+.content ul ul {
+    list-style-type: circle; /* Sub-points use different bullets */
+    padding-right: 20px;
+}
+
+.content li {
+    margin-bottom: 10px;
+    line-height: 1.8;
+    font-size: 1.2em;
+}
+
+.interview-link {
+    display: block;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.interview-link:hover {
+    text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.home-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #4CAF50;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.home-button:hover {
+    background-color: #45a049;
+    color: white;
+}

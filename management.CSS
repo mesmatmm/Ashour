@@ -1,0 +1,83 @@
+/* Reset and general styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl; /* Right-to-left text direction */
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: large;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.home-button {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.left-link {
+    text-align: left; /* Align the content inside to the left */
+    padding: 5px;
+}
+
+.home-button:hover {
+    background-color: #45a049;
+}
+
+.content {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content ul {
+    list-style-type: disc; /* Show bullet points */
+    padding-left: 20px; /* Add left padding to the list */
+    line-height: 1.8;
+}
+
+/* Float the image to the left of the text */
+.float-image {
+    float: left;
+    margin: 0 20px 20px 0;
+    max-width: 400px; /* Adjust the image size */
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

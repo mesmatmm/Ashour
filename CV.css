@@ -8,7 +8,12 @@ body {
     direction: rtl;
     text-align: right;
 }
-
+.fixed-footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
 /* Fixed Compact Header */
 .fixed-header {
     position: fixed;
@@ -17,7 +22,7 @@ body {
     background-color: #4682B4; /* Sky blue */
     color: white;
     z-index: 1000;
-    padding: 10px 0;
+    padding: -40px 0;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -28,7 +33,7 @@ body {
 }
 
 .sections-nav {
-    margin-top: 5px;
+    margin-top: -10px;
 }
 
 .sections-nav .nav-link {
@@ -51,9 +56,11 @@ body {
 .section {
     background-color: #e0f7fa; /* Light blue for sections */
     border-radius: 12px;
-    margin: 20px 0;
-    padding: 20px;
+    margin: 10px;
+    padding-top: 100px;
+    padding-left: 50px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: large;
 }
 
 .section:nth-child(odd) {
